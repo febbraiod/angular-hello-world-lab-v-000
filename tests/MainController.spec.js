@@ -14,5 +14,5 @@ describe('MainController', function () {
 		$controller('MainController', { $scope: $scope });
 
 		expect(Object.keys($scope).length).not.toBe(0);
-	})
+	});
 });

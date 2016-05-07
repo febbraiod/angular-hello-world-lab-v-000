@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ng-app="app">
 <head>
     <meta charset="utf-8">
 
@@ -7,6 +7,9 @@
     <title>Angular Application</title>
 </head>
 <body>
+    <div>
+      <div ng-controller="MainController"><p> Hi I'm {{ name }}, my email address is {{ email }}, or you can call me at {{ phone }}.</p></div>
+    </div>
 
     <script src="js/angular.js"></script>
     <script src="js/app/app.js"></script>
